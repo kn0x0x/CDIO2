@@ -14,8 +14,8 @@ from .models import DetectionResult
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_TELEGRAM_TOKEN = "8129718611:AAG9R8OSOT0aHDr9Fd3RLmr82030DMkzVT8"
-DEFAULT_TELEGRAM_CHAT_ID = "6325753293"
+DEFAULT_TELEGRAM_TOKEN = ""
+DEFAULT_TELEGRAM_CHAT_ID = ""
 
 TransportFn = Callable[[str, bytes, dict[str, str]], None]
 

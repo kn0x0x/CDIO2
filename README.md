@@ -45,7 +45,7 @@ rce-guard --rules custom_rules.json --disable-defaults scan-request --json reque
 ```
 ## Telegram Notifications
 
-Telegram alerts are enabled out of the box using the bundled demo bot token (`8129718611:...`) and chat ID (`6325753293`). Simply run any scan and the notifier will push a message when a payload is flagged.
+Telegram alerts are enabled out of the box using the bundled demo bot token (`...:...`) and chat ID (`...`). Simply run any scan and the notifier will push a message when a payload is flagged.
 
 ```bash
 # Scan a sample log and emit Telegram alerts for malicious entries

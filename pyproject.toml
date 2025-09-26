@@ -1,0 +1,26 @@
+[project]
+name = "rce-guard"
+version = "0.1.0"
+description = "Rule-based system for detecting RCE payloads"
+readme = "README.md"
+authors = [
+  { name = "0xkhng" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://example.com/rce-guard"
+
+[project.scripts]
+rce-guard = "rce_guard.cli:main"
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

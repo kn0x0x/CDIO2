@@ -33,7 +33,7 @@ class TelegramNotifierTestCase(unittest.TestCase):
         notifier = TelegramNotifier.from_args(None, None)
         self.assertTrue(notifier.enabled)
         self.assertIn("8129718611", notifier.token)
-        self.assertEqual(notifier.chat_id, "6325753293")
+        self.assertEqual(notifier.chat_id, "CHAT_ID")
 
     def test_notifier_uses_transport_when_enabled(self) -> None:
         events = []
